@@ -3,11 +3,11 @@ const app = express();
 const port = 5000;
 
 app.get('/', (req, res)=> {
-    res.send('hello World')
+    res.send('Hi There!')
 })
 
 app.get( '/date', (req, res)=>{
-    res.send('Friday 2025')
+    res.send('Friday, May 2025')
 } )
 
 app.listen(port, ()=>{
